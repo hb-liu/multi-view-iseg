@@ -1,0 +1,31 @@
+misc:
+  seed: 12345
+  print_freq: 10
+  num_workers: 8
+  devices: [0, 1]
+  model_dir: experiments
+
+dataset:
+  nmodal: 2
+  nclass: 3
+  src_dir: data/processed/6m
+  syn_dir: data/syn/6m
+
+model:
+  midc: 64
+  stages: 4
+  patch_size: [128, 128, 64]
+  pretrain_weights: results/pretrain/checkpoint.pth
+
+train:
+  lr: 1.0e-2
+  momentum: 0.9
+  weight_decay: 1.0e-4
+  niter: 250
+  nepoch: 100
+  batch_size: 4
+
+inference:
+  batch_size: 4
+  patch_overlap: [64, 64, 32]
+  weights: 'results/finetune/model_best.pth'
