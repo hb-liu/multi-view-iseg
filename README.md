@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 
 ## 2. Prepare Code, Dataset, and Pretained Models:
-Build up the workspace, so that everything can be stored correctly:
+Build up the workspace, so that everything can be correctly stored:
 ```shell
 sh install.sh
 ```
