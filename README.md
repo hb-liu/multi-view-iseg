@@ -26,7 +26,7 @@ Build up the workspace, so that everything can be correctly stored:
 sh install.sh
 ```
 
-Format each data as:
+For your own dataset, format each data as:
 ```shell
 |--<name_of_the_data>
     |-- t1.nii.gz
