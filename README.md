@@ -55,12 +55,12 @@ Put downloaded *.pth into Results folders
 
 ## 3. Run
 ### 3.1 Training
-#### train [dcan](https://github.com/hb-liu/multi-view-iseg/tree/main/dcan) first
+#### Train [DCAN](https://github.com/hb-liu/multi-view-iseg/tree/main/dcan)
 - Preprocessing
 ```shell
 Run proc.ipynb
 ```
-modify the data_path and out_path in proc.ipynb:
+Modify the data_path and out_path in proc.ipynb:
 - for process isointense phase images:
 ```shell
 data_path = 'data/raw/6m'
