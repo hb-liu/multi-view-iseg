@@ -127,3 +127,6 @@ sh train.sh
 ```shell
 python3 test.py
 ```
+
+## 5. P.S.
+If you find any bugs upon running this repo, please raise an issue in the github page or send me an email (hbliu98@gmail.com).
