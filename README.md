@@ -52,3 +52,24 @@ For test-only purpose of this repo, we have shared all the pretrained models:
 |  coseg | [OneDrive](https://onedrive.live.com/?authkey=%21AIjdjYs8MQ5wVX4&id=E5EC3254E49F853%218432&cid=0E5EC3254E49F853) |
 
 Put downloaded *.pth into Results folders
+
+## 3. Run
+### 3.1 Training
+#### train [dcan](https://github.com/hb-liu/multi-view-iseg/tree/main/dcan) first
+- Preprocessing
+```shell
+Run proc.ipynb
+```
+modify the data_path and out_path in proc.ipynb:
+- for process isointense phase images:
+```shell
+data_path = 'data/raw/6m'
+out_path = 'data/processed/6m'
+```
+- for process adult-like phase images:
+```shell
+data_path = 'data/raw/12m'
+out_path = 'data/processed/12m'
+```
+
+### 3.2 Testing
