@@ -53,10 +53,8 @@ For test-only purpose of this repo, we have shared all the pretrained models:
 
 Put downloaded *.pth into Results folders
 
-## 3. Run
-### 3.1 Training
-#### Train [DCAN](https://github.com/hb-liu/multi-view-iseg/tree/main/dcan)
-- Preprocessing
+## 3. Run [DCAN](https://github.com/hb-liu/multi-view-iseg/tree/main/dcan)
+#### Preprocessing
 ```shell
 Run proc.ipynb
 ```
@@ -71,13 +69,13 @@ out_path = 'data/processed/6m'
 data_path = 'data/raw/12m'
 out_path = 'data/processed/12m'
 ```
----
-- Start training
+
+#### Training
 ```shell
 Python3 train.py
 ```
----
-- Synthesize data for down-stream segmentation task
+
+#### Synthesizing data for downstream segmentation task
 ```shell
 Run syn.ipynb
 ```
@@ -93,4 +91,4 @@ config.dataset.src_dir = 'data/processed/12m'
 config.dataset.dst_dir = 'data/processed/6m'
 ```
 
-### 3.2 Testing
+### 3.2 Run [COSEG](https://github.com/hb-liu/multi-view-iseg/tree/main/coseg)
