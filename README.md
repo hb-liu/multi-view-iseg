@@ -91,4 +91,29 @@ config.dataset.src_dir = 'data/processed/12m'
 config.dataset.dst_dir = 'data/processed/6m'
 ```
 
-### 3.2 Run [COSEG](https://github.com/hb-liu/multi-view-iseg/tree/main/coseg)
+## 4. Run [COSEG](https://github.com/hb-liu/multi-view-iseg/tree/main/coseg)
+#### Preprocessing
+```shell
+Run proc.ipynb
+```
+Modify the proc.ipynb
+- for processing source isointense phase images:
+```shell
+data_path = '../dcan/data/processed/12m'
+out_path = 'data/processed/12m'
+```
+- for processing synthetic isointense phase images:
+```shell
+data_path = '../dcan/data/syn/12m'
+out_path = 'data/syn/12m'
+```
+- for processing source adult-like phase images:
+```shell
+data_path = '../dcan/data/processed/12m'
+out_path = 'data/processed/12m'
+```
+- for processing synthetic adult-like phase images:
+```shell
+data_path = '../dcan/data/syn/12m'
+out_path = 'data/syn/12m'
+```
