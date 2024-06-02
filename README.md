@@ -60,7 +60,7 @@ Put downloaded *.pth into Results folders
 ```shell
 Run proc.ipynb
 ```
-Modify the data_path and out_path in proc.ipynb:
+Modify the proc.ipynb:
 - for process isointense phase images:
 ```shell
 data_path = 'data/raw/6m'
@@ -70,6 +70,27 @@ out_path = 'data/processed/6m'
 ```shell
 data_path = 'data/raw/12m'
 out_path = 'data/processed/12m'
+```
+
+- Start training
+```shell
+Python3 train.py
+```
+
+- Synthesize data for down-stream segmentation task
+```shell
+Run syn.ipynb
+```
+Modify the syn.ipynb:
+- for transfer isointense phase images to adult-like contrast
+```shell
+config.dataset.src_dir = 'data/processed/6m'
+config.dataset.dst_dir = 'data/processed/12m'
+```
+- for transfer adult-like phase images to isointense contrast:
+```shell
+config.dataset.src_dir = 'data/processed/12m'
+config.dataset.dst_dir = 'data/processed/6m'
 ```
 
 ### 3.2 Testing
