@@ -59,12 +59,12 @@ Put downloaded *.pth into Results folders
 Run proc.ipynb
 ```
 Modify the proc.ipynb:
-- for process isointense phase images:
+- for processing isointense phase images:
 ```shell
 data_path = 'data/raw/6m'
 out_path = 'data/processed/6m'
 ```
-- for process adult-like phase images:
+- for processing adult-like phase images:
 ```shell
 data_path = 'data/raw/12m'
 out_path = 'data/processed/12m'
