@@ -99,13 +99,13 @@ Run proc.ipynb
 Modify the proc.ipynb
 - for processing source isointense phase images:
 ```shell
-data_path = '../dcan/data/processed/12m'
-out_path = 'data/processed/12m'
+data_path = '../dcan/data/processed/6m'
+out_path = 'data/processed/6m'
 ```
 - for processing synthetic isointense phase images:
 ```shell
-data_path = '../dcan/data/syn/12m'
-out_path = 'data/syn/12m'
+data_path = '../dcan/data/syn/6m'
+out_path = 'data/syn/6m'
 ```
 - for processing source adult-like phase images:
 ```shell
