@@ -21,13 +21,13 @@ pip install -r requirements.txt
 ```
 
 ## 2. Preparation
-#### Prepare Code
+#### Prepare code
 Build up the workspace, so that everything can be correctly stored:
 ```shell
 sh install.sh
 ```
 
-#### Prapare Dataset
+#### Prapare dataset
 For your own dataset, format each data as:
 ```shell
 |--<name_of_the_data>
@@ -43,7 +43,7 @@ Then put formatted data into correct folders:
 
 Suppose \<pwd\> is the directory of this repo
 
-#### Prapare Pretained Models
+#### Prapare pretrained models
 For test-only purpose of this repo, we have shared all the pretrained models:
 
 | Method | Model Zoo |
