@@ -1,9 +1,9 @@
 # Transferring Adult-like Phase Images for Robust Multi-view Isointense Infant Brain Segmentation
 
-#### Authors
+### Authors
 Huabing Liu*, Jiawei Huang, Dengqiang Jia, Qian Wang, Jun Xu, and Dinggang Shen
 
-#### Citation
+### Citation
 To be released
 
 #### Introduction
