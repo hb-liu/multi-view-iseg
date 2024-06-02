@@ -35,8 +35,7 @@ For your own dataset, format each data as:
 ```
 for T1-weighted images, T2-weighted images, and segmentation (if exists), respectively.
 
-
-Put your data into correct folders:
+Put formatted data into correct folders:
 - for isointense phase images, put them into \<pwd\>/dcan/data/raw/6m
 - for adult-like phase images, put them into \<pwd\>/dcan/data/raw/12m
 
