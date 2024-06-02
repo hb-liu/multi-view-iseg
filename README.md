@@ -21,12 +21,12 @@ pip install -r requirements.txt
 ```
 
 ## 2. Prepare Code, Dataset, and Pretained Models:
-Build up the workspace, so that everything can be correctly stored:
+* Build up the workspace, so that everything can be correctly stored:
 ```shell
 sh install.sh
 ```
 
-For your own dataset, format each data as:
+* For your own dataset, format each data as:
 ```shell
 |--<name_of_the_data>
     |-- t1.nii.gz
@@ -35,8 +35,10 @@ For your own dataset, format each data as:
 ```
 for T1-weighted images, T2-weighted images, and segmentation (if exists), respectively.
 
-Put formatted data into correct folders:
+* Put formatted data into correct folders:
 - for isointense phase images, put them into \<pwd\>/dcan/data/raw/6m
 - for adult-like phase images, put them into \<pwd\>/dcan/data/raw/12m
 
-*Suppose \<pwd\> is the directory of this repo
+Suppose \<pwd\> is the directory of this repo
+
+* For test-only purpose of this repo, we have shared all the pretrained models:
