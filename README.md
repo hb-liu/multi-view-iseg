@@ -51,4 +51,4 @@ For test-only purpose of this repo, we have shared all the pretrained models:
 |  dcan  | [OneDrive](https://onedrive.live.com/?authkey=%21ANnlU3K4Yt4EWqs&id=E5EC3254E49F853%218439&cid=0E5EC3254E49F853) |
 |  coseg | [OneDrive](https://onedrive.live.com/?authkey=%21AIjdjYs8MQ5wVX4&id=E5EC3254E49F853%218432&cid=0E5EC3254E49F853) |
 
-Put the downloaded *.pth into Results folders
+Put downloaded *.pth into Results folders
