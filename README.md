@@ -7,7 +7,7 @@ Huabing Liu*, Jiawei Huang, Dengqiang Jia, Qian Wang, Jun Xu, and Dinggang Shen
 To be released
 
 #### Introduction
-This repo includes the source codes and pretrained models for our latest work on isointense infant brain segmentation. The two major components are 1) disentangled cycle-consistent adversarial network ([dcan](https://github.com/hb-liu/multi-view-iseg/tree/main/dcan)) for style transfer between isointense and adult-like phase images; 2) the segmentation network [coseg](https://github.com/hb-liu/multi-view-iseg/tree/main/coseg) that implmentes multi-view learning to incorporate adult-like phase images in isointense infant brain segmentation. If you find this repo useful, please give it a star ⭐ and consider citing our paper in your research. Thank you.
+This repo includes the source codes and pretrained models for our latest work on isointense infant brain segmentation. The two major components are 1) disentangled cycle-consistent adversarial network ([dcan](https://github.com/hb-liu/multi-view-iseg/tree/main/dcan)) for style transfer between isointense and adult-like phase images; 2) the segmentation network [coseg](https://github.com/hb-liu/multi-view-iseg/tree/main/coseg) that implements multi-view learning to incorporate adult-like phase images in isointense infant brain segmentation. If you find this repo useful, please give it a star ⭐ and consider citing our paper in your research. Thank you.
 
 ## 1. Create Environment:
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download))
