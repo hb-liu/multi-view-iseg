@@ -6,7 +6,7 @@ Huabing Liu*, Jiawei Huang, Dengqiang Jia, Qian Wang, Jun Xu, and Dinggang Shen
 ### Citation
 To be released
 
-#### Introduction
+### Introduction
 This repo includes the source codes and pretrained models for our latest work on isointense infant brain segmentation. The two major components are 1) disentangled cycle-consistent adversarial network ([dcan](https://github.com/hb-liu/multi-view-iseg/tree/main/dcan)) for style transfer between isointense and adult-like phase images; 2) the segmentation network [coseg](https://github.com/hb-liu/multi-view-iseg/tree/main/coseg) that implements multi-view learning to incorporate adult-like phase images in isointense infant brain segmentation. If you find this repo useful, please give it a star ⭐ and consider citing our paper in your research. Thank you.
 
 ## 1. Create Environment:
@@ -21,13 +21,13 @@ pip install -r requirements.txt
 ```
 
 ## 2. Preparation
-#### Prepare code
+### Prepare code
 Build up the workspace, so that everything can be correctly stored:
 ```shell
 sh install.sh
 ```
 
-#### Prapare dataset
+### Prapare dataset
 For your own dataset, format each data as:
 ```shell
 |--<name_of_the_data>
@@ -43,7 +43,7 @@ Then put formatted data into correct folders:
 
 Suppose \<pwd\> is the directory of this repo
 
-#### Prapare pretrained models
+### Prapare pretrained models
 For test-only purpose of this repo, we have shared all the pretrained models:
 
 | Method | Model Zoo |
@@ -54,7 +54,7 @@ For test-only purpose of this repo, we have shared all the pretrained models:
 Put downloaded *.pth into Results folders
 
 ## 3. Run [DCAN](https://github.com/hb-liu/multi-view-iseg/tree/main/dcan)
-#### Preprocess
+### Preprocess
 ```shell
 Run proc.ipynb
 ```
@@ -70,12 +70,12 @@ data_path = 'data/raw/12m'
 out_path = 'data/processed/12m'
 ```
 
-#### Train
+### Train
 ```shell
 Python3 train.py
 ```
 
-#### Synthesize data for downstream segmentation task
+### Synthesize data for downstream segmentation task
 ```shell
 Run syn.ipynb
 ```
@@ -92,7 +92,7 @@ config.dataset.dst_dir = 'data/processed/6m'
 ```
 
 ## 4. Run [COSEG](https://github.com/hb-liu/multi-view-iseg/tree/main/coseg)
-#### Preprocess
+### Preprocess
 ```shell
 Run proc.ipynb
 ```
@@ -118,12 +118,12 @@ data_path = '../dcan/data/syn/12m'
 out_path = 'data/syn/12m'
 ```
 
-#### Train
+### Train
 ```shell
 sh train.sh
 ```
 
-#### Test
+### Test
 ```shell
 python3 test.py
 ```
