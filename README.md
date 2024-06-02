@@ -35,7 +35,7 @@ sh install.sh
 ```
 for T1-weighted images, T2-weighted images, and segmentation (if exists), respectively.
 
-* Put formatted data into correct folders:
+Then put formatted data into correct folders:
 - for isointense phase images, put them into \<pwd\>/dcan/data/raw/6m
 - for adult-like phase images, put them into \<pwd\>/dcan/data/raw/12m
 
