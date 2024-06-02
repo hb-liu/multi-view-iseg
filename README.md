@@ -38,4 +38,4 @@ for T1-weighted images, T2-weighted images, and segmentation (if exists), respec
 Put your data into correct folders:
 - for isointense phase images, put them into <pwd>/dcan/data/raw/6m
 - for adult-like phase images, put them into <pwd>/dcan/data/raw/12m
-*Suppose <pwd> is the directory of this repo
+*Suppose \<pwd\> is the directory of this repo
