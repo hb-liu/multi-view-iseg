@@ -71,12 +71,12 @@ out_path = 'data/processed/6m'
 data_path = 'data/raw/12m'
 out_path = 'data/processed/12m'
 ```
-
+---
 - Start training
 ```shell
 Python3 train.py
 ```
-
+---
 - Synthesize data for down-stream segmentation task
 ```shell
 Run syn.ipynb
