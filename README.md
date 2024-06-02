@@ -19,3 +19,9 @@ This repo includes the source codes and pretrained models for our latest work on
 ```shell
   pip install -r requirements.txt
 ```
+
+## 2. Prepare Code, Dataset, and Pretained Models:
+Build up the workspace, so that everything can be stored correctly:
+```shell
+  sh install.sh
+```
