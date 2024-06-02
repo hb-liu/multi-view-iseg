@@ -117,3 +117,13 @@ out_path = 'data/processed/12m'
 data_path = '../dcan/data/syn/12m'
 out_path = 'data/syn/12m'
 ```
+
+#### Train
+```shell
+sh train.sh
+```
+
+### Test
+```shell
+python3 test.py
+```
