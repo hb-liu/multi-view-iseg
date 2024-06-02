@@ -1,0 +1,15 @@
+opencv-python==4.9.0.80
+batchgenerators==0.25
+einops==0.7.0
+ipython==8.20.0
+ipykernel==6.25.0
+matplotlib==3.7.2
+MedPy==0.4.0
+scikit-image==0.20.0
+scipy==1.11.3
+SimpleITK==2.3.1
+torch==2.1.0
+torchio==0.19.3
+torchvision==0.16.0
+numpy==1.26.4
+easydict==1.11
