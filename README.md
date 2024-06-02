@@ -25,3 +25,16 @@ Build up the workspace, so that everything can be stored correctly:
 ```shell
   sh install.sh
 ```
+
+Format each data as:
+```shell
+|--<name_of_the_data>
+    |-- t1.nii.gz
+    |-- t2.nii.gz
+    |-- seg.nii.gz
+```
+
+Put data into the correct folders:
+- for isointense phase images, put them into <pwd>/dcan/data/raw/6m
+- for adult-like phase images, put them into <pwd>/dcan/data/raw/12m
+Suppose <pwd> is the directory of this repo
