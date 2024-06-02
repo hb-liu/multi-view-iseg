@@ -80,12 +80,12 @@ Python3 train.py
 Run syn.ipynb
 ```
 Modify the syn.ipynb:
-- for transfer isointense phase images to adult-like contrast
+- for transferring isointense phase images to adult-like contrast
 ```shell
 config.dataset.src_dir = 'data/processed/6m'
 config.dataset.dst_dir = 'data/processed/12m'
 ```
-- for transfer adult-like phase images to isointense contrast:
+- for transferring adult-like phase images to isointense contrast:
 ```shell
 config.dataset.src_dir = 'data/processed/12m'
 config.dataset.dst_dir = 'data/processed/6m'
