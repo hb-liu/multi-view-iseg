@@ -20,13 +20,15 @@ This repo includes the source codes and pretrained models for our latest work on
 pip install -r requirements.txt
 ```
 
-## 2. Prepare Code, Dataset, and Pretained Models:
-* Build up the workspace, so that everything can be correctly stored:
+## 2. Preparation
+#### Prepare Code
+Build up the workspace, so that everything can be correctly stored:
 ```shell
 sh install.sh
 ```
 
-* For your own dataset, format each data as:
+#### Prapare Dataset
+For your own dataset, format each data as:
 ```shell
 |--<name_of_the_data>
     |-- t1.nii.gz
@@ -41,4 +43,5 @@ Then put formatted data into correct folders:
 
 Suppose \<pwd\> is the directory of this repo
 
-* For test-only purpose of this repo, we have shared all the pretrained models:
+#### Prapare Pretained Models
+For test-only purpose of this repo, we have shared all the pretrained models:
