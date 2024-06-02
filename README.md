@@ -123,7 +123,7 @@ out_path = 'data/syn/12m'
 sh train.sh
 ```
 
-### Test
+#### Test
 ```shell
 python3 test.py
 ```
