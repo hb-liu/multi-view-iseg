@@ -48,8 +48,8 @@ For test-only purpose of this repo, we have shared all the pretrained models:
 
 | Method | Model Zoo |
 | :----: | :-------: |
-|  dcan  | [OneDrive](https://onedrive.live.com/?authkey=%21ANnlU3K4Yt4EWqs&id=E5EC3254E49F853%218439&cid=0E5EC3254E49F853) |
-|  coseg | [OneDrive](https://onedrive.live.com/?authkey=%21AIjdjYs8MQ5wVX4&id=E5EC3254E49F853%218432&cid=0E5EC3254E49F853) |
+|  dcan  | [Google Drive](https://drive.google.com/drive/folders/19TJRI8x7MIaXG09dtHuzTChaF15OlZl7?usp=sharing) |
+|  coseg | [Google Drive](https://drive.google.com/drive/folders/1reyDIyaqegeaO2xOuoDZldJ9txO9SsdO?usp=share_link) |
 
 Put downloaded *.pth into Results folders
 
