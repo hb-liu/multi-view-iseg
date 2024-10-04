@@ -4,7 +4,13 @@
 Huabing Liu*, Jiawei Huang, Dengqiang Jia, Qian Wang, Jun Xu, and Dinggang Shen
 
 ### Citation
-To be released
+@article{liu2024transferring,
+  title={Transferring Adult-like Phase Images for Robust Multi-view Isointense Infant Brain Segmentation},
+  author={Liu, Huabing and Huang, Jiawei and Jia, Dengqiang and Wang, Qian and Xu, Jun and Shen, Dinggang},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2024},
+  publisher={IEEE}
+}
 
 ### Introduction
 This repo includes the source codes and pretrained models for our latest work on isointense infant brain segmentation. The two major components are 1) disentangled cycle-consistent adversarial network ([dcan](https://github.com/hb-liu/multi-view-iseg/tree/main/dcan)) for style transfer between isointense and adult-like phase images; 2) the segmentation network [coseg](https://github.com/hb-liu/multi-view-iseg/tree/main/coseg) that implements multi-view learning to incorporate adult-like phase images in isointense infant brain segmentation. If you find this repo useful, please give it a star ⭐ and consider citing our paper in your research. Thank you.
